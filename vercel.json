@@ -4,5 +4,9 @@
       "source": "/uploads/:path*", 
       "destination": "https://drop-and-share-server.app.br/uploads/:path*"
     },
+    {
+      "source": "/(.*)", 
+      "destination": "/index.html"
+    }
   ]
 }
