@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/uploads/:path*", 
+      "destination": "https://drop-and-share-server.app.br/uploads/:path*"
+    },
   ]
 }
